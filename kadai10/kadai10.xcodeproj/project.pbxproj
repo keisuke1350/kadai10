@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		326AC82F24BA376E00581136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC82E24BA376E00581136 /* AppDelegate.swift */; };
+		326AC83124BA376E00581136 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC83024BA376E00581136 /* SceneDelegate.swift */; };
+		326AC83324BA376E00581136 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC83224BA376E00581136 /* ViewController.swift */; };
+		326AC83624BA376E00581136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326AC83424BA376E00581136 /* Main.storyboard */; };
+		326AC83824BA377100581136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 326AC83724BA377100581136 /* Assets.xcassets */; };
+		326AC83B24BA377100581136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326AC83924BA377100581136 /* LaunchScreen.storyboard */; };
+		326AC84D24BA395A00581136 /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 326AC84724BA395A00581136 /* 2.json */; };
+		326AC84E24BA395A00581136 /* 6.json in Resources */ = {isa = PBXBuildFile; fileRef = 326AC84824BA395A00581136 /* 6.json */; };
+		326AC84F24BA395A00581136 /* 5.json in Resources */ = {isa = PBXBuildFile; fileRef = 326AC84924BA395A00581136 /* 5.json */; };
+		326AC85024BA395A00581136 /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 326AC84A24BA395A00581136 /* 1.json */; };
+		326AC85224BA458500581136 /* LoginMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC85124BA458500581136 /* LoginMovieViewController.swift */; };
+		326AC85524BA4AF300581136 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC85424BA4AF300581136 /* BaseViewController.swift */; };
+		326AC85724BA534A00581136 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC85624BA534A00581136 /* Page1ViewController.swift */; };
+		326AC85924BA572100581136 /* NewsItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC85824BA572100581136 /* NewsItems.swift */; };
+		326AC85B24BBE8BE00581136 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC85A24BBE8BE00581136 /* WebViewController.swift */; };
+		326AC85D24BBEAE900581136 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC85C24BBEAE900581136 /* Page2ViewController.swift */; };
+		326AC86124BBEB4A00581136 /* Page3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC86024BBEB4A00581136 /* Page3ViewController.swift */; };
+		326AC86324BBEB5C00581136 /* Page4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC86224BBEB5C00581136 /* Page4ViewController.swift */; };
+		326AC86524BBEB6D00581136 /* Page5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC86424BBEB6D00581136 /* Page5ViewController.swift */; };
+		326AC86824BBEB8500581136 /* Page6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC86724BBEB8500581136 /* Page6ViewController.swift */; };
+		326AC86A24BBEE7300581136 /* start.mov in Resources */ = {isa = PBXBuildFile; fileRef = 326AC86924BBEE7300581136 /* start.mov */; };
+		326AC86C24BC47DB00581136 /* 7.json in Resources */ = {isa = PBXBuildFile; fileRef = 326AC86B24BC47DB00581136 /* 7.json */; };
+		326AC86E24BC4A1000581136 /* 3.json in Resources */ = {isa = PBXBuildFile; fileRef = 326AC86D24BC4A1000581136 /* 3.json */; };
+		326AC87024BC4B0600581136 /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = 326AC86F24BC4B0600581136 /* 4.json */; };
+		326AC87224BD700300581136 /* YoutubeBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC87124BD700300581136 /* YoutubeBaseViewController.swift */; };
+		326AC87424BD72C500581136 /* YPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC87324BD72C500581136 /* YPage1ViewController.swift */; };
+		326AC87624BD739900581136 /* YoutubeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC87524BD739900581136 /* YoutubeData.swift */; };
+		326AC87824BD7D3900581136 /* YWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC87724BD7D3900581136 /* YWebViewController.swift */; };
+		326AC87A24BD7F7D00581136 /* YPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC87924BD7F7D00581136 /* YPage2ViewController.swift */; };
+		326AC87C24BD7FA500581136 /* YPage3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC87B24BD7FA500581136 /* YPage3ViewController.swift */; };
+		326AC87E24BD7FB500581136 /* YPage4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC87D24BD7FB500581136 /* YPage4ViewController.swift */; };
+		326AC88024BD7FC600581136 /* YPage5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC87F24BD7FC600581136 /* YPage5ViewController.swift */; };
+		326AC88224BD7FDF00581136 /* YPage6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC88124BD7FDF00581136 /* YPage6ViewController.swift */; };
+		E5FA0AAEA71DDC1F473D0FF3 /* Pods_kadai10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A402A0BCF756B32A278D58E /* Pods_kadai10.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		326AC82B24BA376E00581136 /* kadai10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kadai10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		326AC82E24BA376E00581136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		326AC83024BA376E00581136 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		326AC83224BA376E00581136 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		326AC83524BA376E00581136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		326AC83724BA377100581136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		326AC83A24BA377100581136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		326AC83C24BA377100581136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		326AC84724BA395A00581136 /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
+		326AC84824BA395A00581136 /* 6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 6.json; sourceTree = "<group>"; };
+		326AC84924BA395A00581136 /* 5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5.json; sourceTree = "<group>"; };
+		326AC84A24BA395A00581136 /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
+		326AC85124BA458500581136 /* LoginMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMovieViewController.swift; sourceTree = "<group>"; };
+		326AC85424BA4AF300581136 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		326AC85624BA534A00581136 /* Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		326AC85824BA572100581136 /* NewsItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItems.swift; sourceTree = "<group>"; };
+		326AC85A24BBE8BE00581136 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		326AC85C24BBEAE900581136 /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		326AC86024BBEB4A00581136 /* Page3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3ViewController.swift; sourceTree = "<group>"; };
+		326AC86224BBEB5C00581136 /* Page4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4ViewController.swift; sourceTree = "<group>"; };
+		326AC86424BBEB6D00581136 /* Page5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page5ViewController.swift; sourceTree = "<group>"; };
+		326AC86724BBEB8500581136 /* Page6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page6ViewController.swift; sourceTree = "<group>"; };
+		326AC86924BBEE7300581136 /* start.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = start.mov; sourceTree = "<group>"; };
+		326AC86B24BC47DB00581136 /* 7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 7.json; sourceTree = "<group>"; };
+		326AC86D24BC4A1000581136 /* 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3.json; sourceTree = "<group>"; };
+		326AC86F24BC4B0600581136 /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4.json; sourceTree = "<group>"; };
+		326AC87124BD700300581136 /* YoutubeBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeBaseViewController.swift; sourceTree = "<group>"; };
+		326AC87324BD72C500581136 /* YPage1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPage1ViewController.swift; sourceTree = "<group>"; };
+		326AC87524BD739900581136 /* YoutubeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeData.swift; sourceTree = "<group>"; };
+		326AC87724BD7D3900581136 /* YWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YWebViewController.swift; sourceTree = "<group>"; };
+		326AC87924BD7F7D00581136 /* YPage2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPage2ViewController.swift; sourceTree = "<group>"; };
+		326AC87B24BD7FA500581136 /* YPage3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPage3ViewController.swift; sourceTree = "<group>"; };
+		326AC87D24BD7FB500581136 /* YPage4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPage4ViewController.swift; sourceTree = "<group>"; };
+		326AC87F24BD7FC600581136 /* YPage5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPage5ViewController.swift; sourceTree = "<group>"; };
+		326AC88124BD7FDF00581136 /* YPage6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPage6ViewController.swift; sourceTree = "<group>"; };
+		3A402A0BCF756B32A278D58E /* Pods_kadai10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kadai10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8544CB97A4C682E196D90D /* Pods-kadai10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kadai10.debug.xcconfig"; path = "Target Support Files/Pods-kadai10/Pods-kadai10.debug.xcconfig"; sourceTree = "<group>"; };
+		CC29ADC34D0E985DAF8A3BCF /* Pods-kadai10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kadai10.release.xcconfig"; path = "Target Support Files/Pods-kadai10/Pods-kadai10.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		326AC82824BA376E00581136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5FA0AAEA71DDC1F473D0FF3 /* Pods_kadai10.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		326AC82224BA376E00581136 = {
+			isa = PBXGroup;
+			children = (
+				326AC82D24BA376E00581136 /* kadai10 */,
+				326AC82C24BA376E00581136 /* Products */,
+				BADF8B7B0050AE5C7FFA0BEA /* Pods */,
+				D4C09E45E41488D02524D2D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		326AC82C24BA376E00581136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				326AC82B24BA376E00581136 /* kadai10.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		326AC82D24BA376E00581136 /* kadai10 */ = {
+			isa = PBXGroup;
+			children = (
+				326AC84224BA38C400581136 /* Model */,
+				326AC84324BA38CB00581136 /* View */,
+				326AC84424BA38EA00581136 /* Controller */,
+				326AC83C24BA377100581136 /* Info.plist */,
+				326AC84724BA395A00581136 /* 2.json */,
+				326AC84A24BA395A00581136 /* 1.json */,
+				326AC86F24BC4B0600581136 /* 4.json */,
+				326AC86D24BC4A1000581136 /* 3.json */,
+				326AC84924BA395A00581136 /* 5.json */,
+				326AC84824BA395A00581136 /* 6.json */,
+				326AC86B24BC47DB00581136 /* 7.json */,
+				326AC86924BBEE7300581136 /* start.mov */,
+			);
+			path = kadai10;
+			sourceTree = "<group>";
+		};
+		326AC84224BA38C400581136 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				326AC83924BA377100581136 /* LaunchScreen.storyboard */,
+				326AC85824BA572100581136 /* NewsItems.swift */,
+				326AC87524BD739900581136 /* YoutubeData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		326AC84324BA38CB00581136 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				326AC83424BA376E00581136 /* Main.storyboard */,
+				326AC83724BA377100581136 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		326AC84424BA38EA00581136 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				326AC82E24BA376E00581136 /* AppDelegate.swift */,
+				326AC83024BA376E00581136 /* SceneDelegate.swift */,
+				326AC83224BA376E00581136 /* ViewController.swift */,
+				326AC85124BA458500581136 /* LoginMovieViewController.swift */,
+				326AC85424BA4AF300581136 /* BaseViewController.swift */,
+				326AC85624BA534A00581136 /* Page1ViewController.swift */,
+				326AC85C24BBEAE900581136 /* Page2ViewController.swift */,
+				326AC86024BBEB4A00581136 /* Page3ViewController.swift */,
+				326AC86224BBEB5C00581136 /* Page4ViewController.swift */,
+				326AC86424BBEB6D00581136 /* Page5ViewController.swift */,
+				326AC86724BBEB8500581136 /* Page6ViewController.swift */,
+				326AC85A24BBE8BE00581136 /* WebViewController.swift */,
+				326AC87124BD700300581136 /* YoutubeBaseViewController.swift */,
+				326AC87324BD72C500581136 /* YPage1ViewController.swift */,
+				326AC87924BD7F7D00581136 /* YPage2ViewController.swift */,
+				326AC87B24BD7FA500581136 /* YPage3ViewController.swift */,
+				326AC87D24BD7FB500581136 /* YPage4ViewController.swift */,
+				326AC87F24BD7FC600581136 /* YPage5ViewController.swift */,
+				326AC88124BD7FDF00581136 /* YPage6ViewController.swift */,
+				326AC87724BD7D3900581136 /* YWebViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BADF8B7B0050AE5C7FFA0BEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA8544CB97A4C682E196D90D /* Pods-kadai10.debug.xcconfig */,
+				CC29ADC34D0E985DAF8A3BCF /* Pods-kadai10.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D4C09E45E41488D02524D2D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A402A0BCF756B32A278D58E /* Pods_kadai10.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		326AC82A24BA376E00581136 /* kadai10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 326AC83F24BA377100581136 /* Build configuration list for PBXNativeTarget "kadai10" */;
+			buildPhases = (
+				9D1E63CAD073C55BF8783225 /* [CP] Check Pods Manifest.lock */,
+				326AC82724BA376E00581136 /* Sources */,
+				326AC82824BA376E00581136 /* Frameworks */,
+				326AC82924BA376E00581136 /* Resources */,
+				F7FA468CE705A67E027DDAFF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kadai10;
+			productName = kadai10;
+			productReference = 326AC82B24BA376E00581136 /* kadai10.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		326AC82324BA376E00581136 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "葛西　佳祐";
+				TargetAttributes = {
+					326AC82A24BA376E00581136 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 326AC82624BA376E00581136 /* Build configuration list for PBXProject "kadai10" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 326AC82224BA376E00581136;
+			productRefGroup = 326AC82C24BA376E00581136 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				326AC82A24BA376E00581136 /* kadai10 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		326AC82924BA376E00581136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326AC84E24BA395A00581136 /* 6.json in Resources */,
+				326AC85024BA395A00581136 /* 1.json in Resources */,
+				326AC86E24BC4A1000581136 /* 3.json in Resources */,
+				326AC83B24BA377100581136 /* LaunchScreen.storyboard in Resources */,
+				326AC84F24BA395A00581136 /* 5.json in Resources */,
+				326AC84D24BA395A00581136 /* 2.json in Resources */,
+				326AC86A24BBEE7300581136 /* start.mov in Resources */,
+				326AC83824BA377100581136 /* Assets.xcassets in Resources */,
+				326AC86C24BC47DB00581136 /* 7.json in Resources */,
+				326AC87024BC4B0600581136 /* 4.json in Resources */,
+				326AC83624BA376E00581136 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D1E63CAD073C55BF8783225 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kadai10-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7FA468CE705A67E027DDAFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kadai10/Pods-kadai10-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kadai10/Pods-kadai10-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kadai10/Pods-kadai10-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		326AC82724BA376E00581136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				326AC87A24BD7F7D00581136 /* YPage2ViewController.swift in Sources */,
+				326AC85524BA4AF300581136 /* BaseViewController.swift in Sources */,
+				326AC87824BD7D3900581136 /* YWebViewController.swift in Sources */,
+				326AC85924BA572100581136 /* NewsItems.swift in Sources */,
+				326AC83324BA376E00581136 /* ViewController.swift in Sources */,
+				326AC87624BD739900581136 /* YoutubeData.swift in Sources */,
+				326AC87C24BD7FA500581136 /* YPage3ViewController.swift in Sources */,
+				326AC87224BD700300581136 /* YoutubeBaseViewController.swift in Sources */,
+				326AC87424BD72C500581136 /* YPage1ViewController.swift in Sources */,
+				326AC86124BBEB4A00581136 /* Page3ViewController.swift in Sources */,
+				326AC85224BA458500581136 /* LoginMovieViewController.swift in Sources */,
+				326AC86524BBEB6D00581136 /* Page5ViewController.swift in Sources */,
+				326AC85D24BBEAE900581136 /* Page2ViewController.swift in Sources */,
+				326AC85724BA534A00581136 /* Page1ViewController.swift in Sources */,
+				326AC82F24BA376E00581136 /* AppDelegate.swift in Sources */,
+				326AC86324BBEB5C00581136 /* Page4ViewController.swift in Sources */,
+				326AC86824BBEB8500581136 /* Page6ViewController.swift in Sources */,
+				326AC88024BD7FC600581136 /* YPage5ViewController.swift in Sources */,
+				326AC88224BD7FDF00581136 /* YPage6ViewController.swift in Sources */,
+				326AC83124BA376E00581136 /* SceneDelegate.swift in Sources */,
+				326AC87E24BD7FB500581136 /* YPage4ViewController.swift in Sources */,
+				326AC85B24BBE8BE00581136 /* WebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		326AC83424BA376E00581136 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				326AC83524BA376E00581136 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		326AC83924BA377100581136 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				326AC83A24BA377100581136 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		326AC83D24BA377100581136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		326AC83E24BA377100581136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		326AC84024BA377100581136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA8544CB97A4C682E196D90D /* Pods-kadai10.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6FYHGP54R;
+				INFOPLIST_FILE = kadai10/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.comAutolayout.kadai10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		326AC84124BA377100581136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC29ADC34D0E985DAF8A3BCF /* Pods-kadai10.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R6FYHGP54R;
+				INFOPLIST_FILE = kadai10/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.comAutolayout.kadai10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		326AC82624BA376E00581136 /* Build configuration list for PBXProject "kadai10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326AC83D24BA377100581136 /* Debug */,
+				326AC83E24BA377100581136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		326AC83F24BA377100581136 /* Build configuration list for PBXNativeTarget "kadai10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				326AC84024BA377100581136 /* Debug */,
+				326AC84124BA377100581136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 326AC82324BA376E00581136 /* Project object */;
+}
