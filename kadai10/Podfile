@@ -13,6 +13,11 @@ target 'kadai10' do
   pod 'Alamofire', '~> 5.2'
   pod 'SwiftyJSON'
   pod 'SDWebImage', '~> 5.0'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+  pod 'FirebaseUI/Storage'
   
 
 end

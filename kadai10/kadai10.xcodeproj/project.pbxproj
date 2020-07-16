@@ -40,6 +40,8 @@
 		326AC87E24BD7FB500581136 /* YPage4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC87D24BD7FB500581136 /* YPage4ViewController.swift */; };
 		326AC88024BD7FC600581136 /* YPage5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC87F24BD7FC600581136 /* YPage5ViewController.swift */; };
 		326AC88224BD7FDF00581136 /* YPage6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC88124BD7FDF00581136 /* YPage6ViewController.swift */; };
+		32E9C46F24BE4C3900890012 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E9C46E24BE4C3900890012 /* ChatListViewController.swift */; };
+		32E9C47124BE873B00890012 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32E9C47024BE873B00890012 /* GoogleService-Info.plist */; };
 		E5FA0AAEA71DDC1F473D0FF3 /* Pods_kadai10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A402A0BCF756B32A278D58E /* Pods_kadai10.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +81,8 @@
 		326AC87D24BD7FB500581136 /* YPage4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPage4ViewController.swift; sourceTree = "<group>"; };
 		326AC87F24BD7FC600581136 /* YPage5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPage5ViewController.swift; sourceTree = "<group>"; };
 		326AC88124BD7FDF00581136 /* YPage6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPage6ViewController.swift; sourceTree = "<group>"; };
+		32E9C46E24BE4C3900890012 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		32E9C47024BE873B00890012 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3A402A0BCF756B32A278D58E /* Pods_kadai10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kadai10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8544CB97A4C682E196D90D /* Pods-kadai10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kadai10.debug.xcconfig"; path = "Target Support Files/Pods-kadai10/Pods-kadai10.debug.xcconfig"; sourceTree = "<group>"; };
 		CC29ADC34D0E985DAF8A3BCF /* Pods-kadai10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kadai10.release.xcconfig"; path = "Target Support Files/Pods-kadai10/Pods-kadai10.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +125,7 @@
 				326AC84324BA38CB00581136 /* View */,
 				326AC84424BA38EA00581136 /* Controller */,
 				326AC83C24BA377100581136 /* Info.plist */,
+				32E9C47024BE873B00890012 /* GoogleService-Info.plist */,
 				326AC84724BA395A00581136 /* 2.json */,
 				326AC84A24BA395A00581136 /* 1.json */,
 				326AC86F24BC4B0600581136 /* 4.json */,
@@ -175,6 +180,7 @@
 				326AC87F24BD7FC600581136 /* YPage5ViewController.swift */,
 				326AC88124BD7FDF00581136 /* YPage6ViewController.swift */,
 				326AC87724BD7D3900581136 /* YWebViewController.swift */,
+				32E9C46E24BE4C3900890012 /* ChatListViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -261,6 +267,7 @@
 				326AC86E24BC4A1000581136 /* 3.json in Resources */,
 				326AC83B24BA377100581136 /* LaunchScreen.storyboard in Resources */,
 				326AC84F24BA395A00581136 /* 5.json in Resources */,
+				32E9C47124BE873B00890012 /* GoogleService-Info.plist in Resources */,
 				326AC84D24BA395A00581136 /* 2.json in Resources */,
 				326AC86A24BBEE7300581136 /* start.mov in Resources */,
 				326AC83824BA377100581136 /* Assets.xcassets in Resources */,
@@ -324,6 +331,7 @@
 				326AC87824BD7D3900581136 /* YWebViewController.swift in Sources */,
 				326AC85924BA572100581136 /* NewsItems.swift in Sources */,
 				326AC83324BA376E00581136 /* ViewController.swift in Sources */,
+				32E9C46F24BE4C3900890012 /* ChatListViewController.swift in Sources */,
 				326AC87624BD739900581136 /* YoutubeData.swift in Sources */,
 				326AC87C24BD7FA500581136 /* YPage3ViewController.swift in Sources */,
 				326AC87224BD700300581136 /* YoutubeBaseViewController.swift in Sources */,

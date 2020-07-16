@@ -9,6 +9,7 @@
 import UIKit
 import GoogleMobileAds
 import UserNotifications
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,12 +22,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        
+        FirebaseApp.configure()
         //許可を促すアラートを出します
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound]) { (granted, error) in
             
             self.notificationGranted = granted
             if let error = error {
-                print("エラーです")
+                print("エラーです\(error)")
             
             }
         }

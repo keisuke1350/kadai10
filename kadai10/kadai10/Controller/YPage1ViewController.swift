@@ -83,17 +83,17 @@ class YPage1ViewController: UITableViewController,SegementSlideContentScrollView
         
         //Requestを送る
         
-        let text = "https://www.googleapis.com/youtube/v3/search?key=AIzaSyDEbvqvyCf1GtIdLmMv_q8yL7y_uxevmNA&q=那須川天心&part=snippet&maxResults=20&order=date"
+        let text = "https://www.googleapis.com/youtube/v3/search?key=AIzaSyDEbvqvyCf1GtIdLmMv_q8yL7y_uxevmNA&q=youtuber&part=snippet&maxResults=10&order=date"
         let url = text.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
         
         AF.request(url, method: .get, parameters: nil, encoding: JSONEncoding.default).responseJSON{(responce) in
             //JSON解析
-            //40個値が帰ってくるので、for文で全て配列に入れる
+            //20個値が帰ってくるので、for文で全て配列に入れる
             
             switch responce.result{
             case .success:
                 
-                for i in 0...19{
+                for i in 0...10{
                     let json:JSON = JSON(responce.data as Any)
                     let videoId = json["items"][i]["id"]["videoId"].string
 //                    let publishedAt = json["items"][i]["snippet"]["publishedAt"].string

@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSCameraUsageDescription</key>
+	<string>カメラにアクセスしてもよろしいでしょうか？</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>写真にアクセスしてもよろしいでしょうか？</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
@@ -10,7 +14,7 @@
 	<key>LSApplicationCategoryType</key>
 	<string></string>
 	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-5106065156529384~2542757578</string>
+	<string>ca-app-pub-3940256099942544~1458002511</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
