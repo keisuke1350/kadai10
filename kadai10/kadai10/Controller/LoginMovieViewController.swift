@@ -15,7 +15,7 @@ import FirebaseStorage
 import FirebaseAuth
 import FirebaseUI
 
-class LoginMovieViewController: UIViewController,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
+class LoginMovieViewController: UIViewController{
     
     @IBOutlet weak var profileImageButton: UIButton!
     @IBOutlet weak var emailTextField: UITextField!
@@ -63,8 +63,8 @@ class LoginMovieViewController: UIViewController,UIImagePickerControllerDelegate
         //registerbuttonを編集
         registerButton.layer.cornerRadius = 15
         
-//        //プロフィール画像のアクション
-//        profileImageButton.addTarget(self, action: #selector(tappedProfileImageButton), for: .touchUpInside)
+        //プロフィール画像のアクション
+        profileImageButton.addTarget(self, action: #selector(tappedProfileImageButton), for: .touchUpInside)
         
         //registerボタンのアクション
         registerButton.addTarget(self, action: #selector(tappedRegisterButton), for: .touchUpInside)
@@ -74,7 +74,7 @@ class LoginMovieViewController: UIViewController,UIImagePickerControllerDelegate
         usernameTextField.delegate = self
         
         registerButton.isEnabled = false
-        registerButton.backgroundColor = .init(red: 100, green: 100, blue: 100, alpha: 1)
+        registerButton.backgroundColor = .init(red: 255, green: 0, blue: 0, alpha: 1)
         
         
         // Do any additional setup after loading the view.
@@ -102,77 +102,6 @@ class LoginMovieViewController: UIViewController,UIImagePickerControllerDelegate
     }
     */
 
-    
-    @IBAction func tappedProfileButton(_ sender: Any) {
-        
-        print("imageViewをタップしたよ")
-        //アクションシートを表示する
-        let alertsheet = UIAlertController(title: nil, message: "選択してください", preferredStyle: .actionSheet)
-        //カメラを選んだ時
-        let cameraAction = UIAlertAction(title: "カメラで撮影", style: .default) { (action) in
-            print("カメラが選択されました")
-            self.presentPicker(sourceType: .camera)
-        }
-//    @objc func tappedProfileImageButton(_ sender: Any) {
-//
-//        }
-        //アルバムを選んだ時
-        let albumAction = UIAlertAction(title: "アルバムから選択", style: .default) { (action) in
-            print("アルバムが選択されました")
-            self.presentPicker(sourceType: .photoLibrary)
-        }
-        let cancelAction = UIAlertAction(title: "キャンセル", style: .cancel) { (action) in
-            print("キャンセルが選択されました")
-        }
-        alertsheet.addAction(cameraAction)
-        alertsheet.addAction(albumAction)
-        alertsheet.addAction(cancelAction)
-        
-        present(alertsheet,animated: true)
-        
-//        let imagePickerController = UIImagePickerController()
-//        imagePickerController.delegate = self
-//        imagePickerController.allowsEditing = true
-//
-//        self.present(imagePickerController, animated: true, completion: nil)
-        
-    }
-    
-    //アルバムとカメラの画面を生成する関数
-    func presentPicker(sourceType:UIImagePickerController.SourceType){
-        if UIImagePickerController.isSourceTypeAvailable(sourceType) {
-            //ソースタイプが利用できる時
-            let imagePicker = UIImagePickerController()
-            imagePicker.sourceType = sourceType
-            //デリゲート先に自らのクラスを指定
-            imagePicker.delegate = self
-            imagePicker.allowsEditing = true
-            //画面を表示する
-            present(imagePicker, animated: true, completion: nil)
-        } else {
-            print("The SourceType is not found")
-        }
-    }
-    
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        if let editImage = info[.editedImage] as? UIImage {
-            profileImageButton.setImage(editImage.withRenderingMode(.alwaysOriginal), for: .normal)
-            } else if let originalImage = info[.originalImage] as? UIImage {
-            profileImageButton.setImage(originalImage
-                .withRenderingMode(.alwaysOriginal), for: .normal)
-            }
-        
-        profileImageButton.setTitle("", for: .normal)
-        profileImageButton.imageView?.contentMode = .scaleAspectFill
-        profileImageButton.contentHorizontalAlignment = .fill
-        profileImageButton.contentVerticalAlignment = .fill
-        profileImageButton.clipsToBounds = true
-        
-        
-        dismiss(animated: true, completion: nil)
-        }
-    
-    
     @objc private func tappedRegisterButton () {
         guard let image = profileImageButton.imageView?.image else { return }
         guard let uploadImage = image.jpegData(compressionQuality: 0.3) else { return }
@@ -253,4 +182,76 @@ extension LoginMovieViewController:UITextFieldDelegate{
             registerButton.backgroundColor = .init(red: 0, green: 185, blue: 0, alpha: 1)
         }
     }
+}
+
+extension LoginMovieViewController:UIImagePickerControllerDelegate,UINavigationControllerDelegate {
+    
+    @objc private func tappedProfileImageButton() {
+            print("imageViewをタップしたよ")
+            //アクションシートを表示する
+            let alertsheet = UIAlertController(title: nil, message: "選択してください", preferredStyle: .actionSheet)
+            //カメラを選んだ時
+            let cameraAction = UIAlertAction(title: "カメラで撮影", style: .default) { (action) in
+                print("カメラが選択されました")
+                self.presentPicker(sourceType: .camera)
+
+            }
+            //アルバムを選んだ時
+            let albumAction = UIAlertAction(title: "アルバムから選択", style: .default) { (action) in
+                print("アルバムが選択されました")
+                self.presentPicker(sourceType: .photoLibrary)
+            }
+            let cancelAction = UIAlertAction(title: "キャンセル", style: .cancel) { (action) in
+                print("キャンセルが選択されました")
+            }
+            alertsheet.addAction(cameraAction)
+            alertsheet.addAction(albumAction)
+            alertsheet.addAction(cancelAction)
+            
+            present(alertsheet,animated: true)
+            
+    //        let imagePickerController = UIImagePickerController()
+    //        imagePickerController.delegate = self
+    //        imagePickerController.allowsEditing = true
+    //
+    //        self.present(imagePickerController, animated: true, completion: nil)
+            
+        }
+        
+        //アルバムとカメラの画面を生成する関数
+        func presentPicker(sourceType:UIImagePickerController.SourceType){
+            if UIImagePickerController.isSourceTypeAvailable(sourceType) {
+                //ソースタイプが利用できる時
+                let imagePicker = UIImagePickerController()
+                imagePicker.sourceType = sourceType
+                //デリゲート先に自らのクラスを指定
+                imagePicker.delegate = self
+                imagePicker.allowsEditing = true
+                //画面を表示する
+                present(imagePicker, animated: true, completion: nil)
+            } else {
+                print("The SourceType is not found")
+            }
+        }
+        
+        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+            if let editImage = info[.editedImage] as? UIImage {
+                profileImageButton.setImage(editImage.withRenderingMode(.alwaysOriginal), for: .normal)
+                } else if let originalImage = info[.originalImage] as? UIImage {
+                profileImageButton.setImage(originalImage
+                    .withRenderingMode(.alwaysOriginal), for: .normal)
+                }
+            
+            profileImageButton.setTitle("", for: .normal)
+            profileImageButton.imageView?.contentMode = .scaleAspectFill
+            profileImageButton.contentHorizontalAlignment = .fill
+            profileImageButton.contentVerticalAlignment = .fill
+            profileImageButton.clipsToBounds = true
+            
+            
+            dismiss(animated: true, completion: nil)
+            }
+    
+    
+    
 }

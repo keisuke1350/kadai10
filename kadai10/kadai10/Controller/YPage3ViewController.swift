@@ -72,7 +72,7 @@ class YPage3ViewController: UITableViewController,SegementSlideContentScrollView
         
         //Requestを送る
         
-        let text = "https://www.googleapis.com/youtube/v3/search?key=AIzaSyDEbvqvyCf1GtIdLmMv_q8yL7y_uxevmNA&q=犬&part=snippet&maxResults=20&order=date"
+        let text = "https://www.googleapis.com/youtube/v3/search?key=AIzaSyDEbvqvyCf1GtIdLmMv_q8yL7y_uxevmNA&q=CNN&part=snippet&maxResults=20&order=date"
         let url = text.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
         
         AF.request(url, method: .get, parameters: nil, encoding: JSONEncoding.default).responseJSON{(responce) in

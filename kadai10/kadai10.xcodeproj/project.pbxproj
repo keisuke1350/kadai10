@@ -7,15 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3204054A24C2849E000C91AA /* 5.json in Resources */ = {isa = PBXBuildFile; fileRef = 3204054924C2849E000C91AA /* 5.json */; };
 		326AC82F24BA376E00581136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC82E24BA376E00581136 /* AppDelegate.swift */; };
 		326AC83124BA376E00581136 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC83024BA376E00581136 /* SceneDelegate.swift */; };
 		326AC83324BA376E00581136 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC83224BA376E00581136 /* ViewController.swift */; };
 		326AC83624BA376E00581136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326AC83424BA376E00581136 /* Main.storyboard */; };
 		326AC83824BA377100581136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 326AC83724BA377100581136 /* Assets.xcassets */; };
 		326AC83B24BA377100581136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326AC83924BA377100581136 /* LaunchScreen.storyboard */; };
-		326AC84D24BA395A00581136 /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 326AC84724BA395A00581136 /* 2.json */; };
-		326AC84E24BA395A00581136 /* 6.json in Resources */ = {isa = PBXBuildFile; fileRef = 326AC84824BA395A00581136 /* 6.json */; };
-		326AC84F24BA395A00581136 /* 5.json in Resources */ = {isa = PBXBuildFile; fileRef = 326AC84924BA395A00581136 /* 5.json */; };
 		326AC85024BA395A00581136 /* 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 326AC84A24BA395A00581136 /* 1.json */; };
 		326AC85224BA458500581136 /* LoginMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC85124BA458500581136 /* LoginMovieViewController.swift */; };
 		326AC85524BA4AF300581136 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC85424BA4AF300581136 /* BaseViewController.swift */; };
@@ -28,9 +26,6 @@
 		326AC86524BBEB6D00581136 /* Page5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC86424BBEB6D00581136 /* Page5ViewController.swift */; };
 		326AC86824BBEB8500581136 /* Page6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC86724BBEB8500581136 /* Page6ViewController.swift */; };
 		326AC86A24BBEE7300581136 /* start.mov in Resources */ = {isa = PBXBuildFile; fileRef = 326AC86924BBEE7300581136 /* start.mov */; };
-		326AC86C24BC47DB00581136 /* 7.json in Resources */ = {isa = PBXBuildFile; fileRef = 326AC86B24BC47DB00581136 /* 7.json */; };
-		326AC86E24BC4A1000581136 /* 3.json in Resources */ = {isa = PBXBuildFile; fileRef = 326AC86D24BC4A1000581136 /* 3.json */; };
-		326AC87024BC4B0600581136 /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = 326AC86F24BC4B0600581136 /* 4.json */; };
 		326AC87224BD700300581136 /* YoutubeBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC87124BD700300581136 /* YoutubeBaseViewController.swift */; };
 		326AC87424BD72C500581136 /* YPage1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC87324BD72C500581136 /* YPage1ViewController.swift */; };
 		326AC87624BD739900581136 /* YoutubeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC87524BD739900581136 /* YoutubeData.swift */; };
@@ -38,14 +33,16 @@
 		326AC87A24BD7F7D00581136 /* YPage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC87924BD7F7D00581136 /* YPage2ViewController.swift */; };
 		326AC87C24BD7FA500581136 /* YPage3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC87B24BD7FA500581136 /* YPage3ViewController.swift */; };
 		326AC87E24BD7FB500581136 /* YPage4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC87D24BD7FB500581136 /* YPage4ViewController.swift */; };
-		326AC88024BD7FC600581136 /* YPage5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC87F24BD7FC600581136 /* YPage5ViewController.swift */; };
-		326AC88224BD7FDF00581136 /* YPage6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326AC88124BD7FDF00581136 /* YPage6ViewController.swift */; };
+		32E262C324C27AA80052B487 /* 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 32E262C224C27AA70052B487 /* 2.json */; };
+		32E262C524C27BE30052B487 /* 3.json in Resources */ = {isa = PBXBuildFile; fileRef = 32E262C424C27BE20052B487 /* 3.json */; };
+		32E262C724C27CBA0052B487 /* 4.json in Resources */ = {isa = PBXBuildFile; fileRef = 32E262C624C27CBA0052B487 /* 4.json */; };
 		32E9C46F24BE4C3900890012 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E9C46E24BE4C3900890012 /* ChatListViewController.swift */; };
 		32E9C47124BE873B00890012 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32E9C47024BE873B00890012 /* GoogleService-Info.plist */; };
 		E5FA0AAEA71DDC1F473D0FF3 /* Pods_kadai10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A402A0BCF756B32A278D58E /* Pods_kadai10.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3204054924C2849E000C91AA /* 5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5.json; sourceTree = "<group>"; };
 		326AC82B24BA376E00581136 /* kadai10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kadai10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		326AC82E24BA376E00581136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		326AC83024BA376E00581136 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,9 +51,6 @@
 		326AC83724BA377100581136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		326AC83A24BA377100581136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		326AC83C24BA377100581136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		326AC84724BA395A00581136 /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
-		326AC84824BA395A00581136 /* 6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 6.json; sourceTree = "<group>"; };
-		326AC84924BA395A00581136 /* 5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 5.json; sourceTree = "<group>"; };
 		326AC84A24BA395A00581136 /* 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 1.json; sourceTree = "<group>"; };
 		326AC85124BA458500581136 /* LoginMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMovieViewController.swift; sourceTree = "<group>"; };
 		326AC85424BA4AF300581136 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -69,9 +63,6 @@
 		326AC86424BBEB6D00581136 /* Page5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page5ViewController.swift; sourceTree = "<group>"; };
 		326AC86724BBEB8500581136 /* Page6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page6ViewController.swift; sourceTree = "<group>"; };
 		326AC86924BBEE7300581136 /* start.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = start.mov; sourceTree = "<group>"; };
-		326AC86B24BC47DB00581136 /* 7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 7.json; sourceTree = "<group>"; };
-		326AC86D24BC4A1000581136 /* 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3.json; sourceTree = "<group>"; };
-		326AC86F24BC4B0600581136 /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4.json; sourceTree = "<group>"; };
 		326AC87124BD700300581136 /* YoutubeBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeBaseViewController.swift; sourceTree = "<group>"; };
 		326AC87324BD72C500581136 /* YPage1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPage1ViewController.swift; sourceTree = "<group>"; };
 		326AC87524BD739900581136 /* YoutubeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeData.swift; sourceTree = "<group>"; };
@@ -79,8 +70,9 @@
 		326AC87924BD7F7D00581136 /* YPage2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPage2ViewController.swift; sourceTree = "<group>"; };
 		326AC87B24BD7FA500581136 /* YPage3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPage3ViewController.swift; sourceTree = "<group>"; };
 		326AC87D24BD7FB500581136 /* YPage4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPage4ViewController.swift; sourceTree = "<group>"; };
-		326AC87F24BD7FC600581136 /* YPage5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPage5ViewController.swift; sourceTree = "<group>"; };
-		326AC88124BD7FDF00581136 /* YPage6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPage6ViewController.swift; sourceTree = "<group>"; };
+		32E262C224C27AA70052B487 /* 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2.json; sourceTree = "<group>"; };
+		32E262C424C27BE20052B487 /* 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 3.json; sourceTree = "<group>"; };
+		32E262C624C27CBA0052B487 /* 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4.json; sourceTree = "<group>"; };
 		32E9C46E24BE4C3900890012 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
 		32E9C47024BE873B00890012 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3A402A0BCF756B32A278D58E /* Pods_kadai10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kadai10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,13 +118,11 @@
 				326AC84424BA38EA00581136 /* Controller */,
 				326AC83C24BA377100581136 /* Info.plist */,
 				32E9C47024BE873B00890012 /* GoogleService-Info.plist */,
-				326AC84724BA395A00581136 /* 2.json */,
 				326AC84A24BA395A00581136 /* 1.json */,
-				326AC86F24BC4B0600581136 /* 4.json */,
-				326AC86D24BC4A1000581136 /* 3.json */,
-				326AC84924BA395A00581136 /* 5.json */,
-				326AC84824BA395A00581136 /* 6.json */,
-				326AC86B24BC47DB00581136 /* 7.json */,
+				32E262C224C27AA70052B487 /* 2.json */,
+				32E262C424C27BE20052B487 /* 3.json */,
+				32E262C624C27CBA0052B487 /* 4.json */,
+				3204054924C2849E000C91AA /* 5.json */,
 				326AC86924BBEE7300581136 /* start.mov */,
 			);
 			path = kadai10;
@@ -177,8 +167,6 @@
 				326AC87924BD7F7D00581136 /* YPage2ViewController.swift */,
 				326AC87B24BD7FA500581136 /* YPage3ViewController.swift */,
 				326AC87D24BD7FB500581136 /* YPage4ViewController.swift */,
-				326AC87F24BD7FC600581136 /* YPage5ViewController.swift */,
-				326AC88124BD7FDF00581136 /* YPage6ViewController.swift */,
 				326AC87724BD7D3900581136 /* YWebViewController.swift */,
 				32E9C46E24BE4C3900890012 /* ChatListViewController.swift */,
 			);
@@ -262,17 +250,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				326AC84E24BA395A00581136 /* 6.json in Resources */,
 				326AC85024BA395A00581136 /* 1.json in Resources */,
-				326AC86E24BC4A1000581136 /* 3.json in Resources */,
 				326AC83B24BA377100581136 /* LaunchScreen.storyboard in Resources */,
-				326AC84F24BA395A00581136 /* 5.json in Resources */,
 				32E9C47124BE873B00890012 /* GoogleService-Info.plist in Resources */,
-				326AC84D24BA395A00581136 /* 2.json in Resources */,
 				326AC86A24BBEE7300581136 /* start.mov in Resources */,
 				326AC83824BA377100581136 /* Assets.xcassets in Resources */,
-				326AC86C24BC47DB00581136 /* 7.json in Resources */,
-				326AC87024BC4B0600581136 /* 4.json in Resources */,
+				3204054A24C2849E000C91AA /* 5.json in Resources */,
+				32E262C324C27AA80052B487 /* 2.json in Resources */,
+				32E262C524C27BE30052B487 /* 3.json in Resources */,
+				32E262C724C27CBA0052B487 /* 4.json in Resources */,
 				326AC83624BA376E00581136 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,8 +330,6 @@
 				326AC82F24BA376E00581136 /* AppDelegate.swift in Sources */,
 				326AC86324BBEB5C00581136 /* Page4ViewController.swift in Sources */,
 				326AC86824BBEB8500581136 /* Page6ViewController.swift in Sources */,
-				326AC88024BD7FC600581136 /* YPage5ViewController.swift in Sources */,
-				326AC88224BD7FDF00581136 /* YPage6ViewController.swift in Sources */,
 				326AC83124BA376E00581136 /* SceneDelegate.swift in Sources */,
 				326AC87E24BD7FB500581136 /* YPage4ViewController.swift in Sources */,
 				326AC85B24BBE8BE00581136 /* WebViewController.swift in Sources */,

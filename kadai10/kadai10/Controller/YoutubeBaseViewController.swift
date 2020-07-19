@@ -40,7 +40,7 @@ class YoutubeBaseViewController: SegementSlideDefaultViewController {
     }
     
     override var titlesInSwitcher: [String] {
-        return ["那須川天心","おもしろ","犬","ニュース","ヒカキン","猫",]
+        return ["ニュース","NEWS","BBC","CNN"]
     }
     
     override func segementSlideContentViewController(at index: Int) -> SegementSlideContentScrollViewDelegate? {
@@ -54,10 +54,6 @@ class YoutubeBaseViewController: SegementSlideDefaultViewController {
             return YPage3ViewController()
         case 3:
             return YPage4ViewController()
-        case 4:
-            return YPage5ViewController()
-        case 5:
-            return YPage6ViewController()
         default:
             return YPage1ViewController()
         }
